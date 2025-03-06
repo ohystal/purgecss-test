@@ -64,7 +64,7 @@ module.exports = {
         {
           extractor: (content) =>
             content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || [],
-          extensions: ["html", "js", "css"], // Добавляем JavaScript-файлы для анализа
+          extensions: ["html", "js"], // Добавляем JavaScript-файлы для анализа
         },
       ],
       fontFace: true,
