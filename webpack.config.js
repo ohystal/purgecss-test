@@ -71,6 +71,8 @@ module.exports = {
       fontFace: true,
       keyframes: true,
       variables: true,
+      rejected: true,
+      rejectedCss: true,
     }),
   ],
 

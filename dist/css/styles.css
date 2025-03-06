@@ -19,10 +19,13 @@ body {
     flex-direction: column;
     gap: 30px;
     width: 300px;
-    position: relative
+    position: relative;
 }
 
 .title {
+
+    @apply --bg;
+
     color: rgb(153, 153, 152);
     font-size: 18px;
     line-height: 26px;
