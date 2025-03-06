@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     gap: 30px;
     width: 300px;
-    position: relative;
+    position: relative
 }
 
 .title {
@@ -65,4 +65,8 @@ body {
 
 .test-div-class {
     color: #ffffffb4;
+}
+
+.test-div-classtest {
+    color: #572f2fb4;
 }

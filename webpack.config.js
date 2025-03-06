@@ -67,6 +67,7 @@ module.exports = {
           extensions: ["html", "js"], // Добавляем JavaScript-файлы для анализа
         },
       ],
+      safelist: [/test$/],
       fontFace: true,
       keyframes: true,
       variables: true,
