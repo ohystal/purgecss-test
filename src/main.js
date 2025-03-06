@@ -1,8 +1,20 @@
 import Delivery from "./modules/Delivery.js";
-import { getAppEl } from "./modules/components.js";
+import { getAppEl, getDivEl } from "./modules/components.js";
 import "./style.css"
 
+const div = getDivEl();
 const appEl = getAppEl();
+
+let test = "test"
+
+function setClass(elem, className) {
+  elem.classList.add(className);
+  return elem;
+}
+
+setClass(div, "test-div-class" + test);
+
+appEl.append(div);
 
 const deliveryArr = [
   new Delivery("Ольга", "ул. Вымыслов, д. 12", 8, "delivery"),
