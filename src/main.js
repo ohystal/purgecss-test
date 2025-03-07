@@ -1,11 +1,10 @@
 import Delivery from "./modules/Delivery.js";
 import { getAppEl, getDivEl } from "./modules/components.js";
-import "./style.css"
 
 const div = getDivEl();
 const appEl = getAppEl();
 
-let test = "test"
+let test = "test";
 
 function setClass(elem, className) {
   elem.classList.add(className);
